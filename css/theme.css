@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+* {
+  font-family: 'Slabo 27px', serif;
+}
+body {
+  background: #fff;
+  margin-top: 57px;
+  font-size: 14px;
+}
+a {
+  color: #000;
+  font-weight: 500;
+}
+a:hover {
+  color: #900;
+  text-decoration: none;
+}
+.jumbotron {
+  background: #c9c9c9;
+}
+.contenedor {
+  background: transparent;
+  padding-top: 0px;
+}
+.caja {
+	border: solid 0px #eaeaea;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	min-height: 40px;
+}
+.padding-10 {
+	padding: 10px 0px;
+}
+.f-blanco {
+  background: transparent;
+}
+.logo {
+  width: auto;
+  height: 50px;
+}
+.buscador {
+  margin-top: 12px;
+}
+.navbar-inverse .navbar-nav li a{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 17px;
+}
+.img-carrusel {
+  width: 635px !important;
+  height: 357px;
+  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+}
+.opacidad {
+  background-color: rgba(0, 0, 0, .65) !important;
+  padding: 5px 10px;
+}
+.text-rojo {
+  color: #900;
+  font-weight: bold;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.cortar{
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.cortar:hover {
+  width: 100%;
+  white-space: initial;
+  overflow:visible;
+  cursor: pointer;
+  color: #000;
+}
+.destacados {
+  width: auto;
+  background:#000;
+}
+.destacado-links {
+  width: 100px;
+  color: #ffffff;
+  border-bottom: solid 1px #D29B03;
+  display: block;
+  text-align: left;
+}
+.destacado-box-links a:hover {
+  background: #D29B03;
+}
+@media (max-width: 767px) {
+  .img-post-view {
+    width: 100%;
+    height: 238px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  .img-post-opinion {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: solid 1px #ffffff;
+    object-fit: cover;
+  }
+  .img-carrusel {
+    width: 100% !important;
+    height: 170px;
+    background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-position: center center;
+  }
+  .destacados {
+    width: auto !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;"
+  }
+  .destacado-carrusel {
+    width: 100%;
+    margin-right: -40px;
+  }
+  .destacado-box-links {
+    width: 100%;
+    margin: auto 0px auto 10px;
+  }
+  .destacado-box {
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -30px;
+  }
+  .destacado-img {
+    width: 0px;
+    height: 45px;
+    visibility: hidden;
+    object-fit: cover;
+  }
+  .pub {
+    visibility: hidden;
+    height: 0px;
+  }
+  .logo {
+    width: 180px;
+    height: auto;
+    margin-left: -10px;
+  }
+}
+@media (min-width: 768px) {
+  .img-post-view {
+    width: 100%;
+    height: 173px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  .img-post-opinion {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: solid 1px #ffffff;
+    object-fit: cover;
+  }
+  .img-carrusel {
+    width: 100% !important;
+    height: 389px;
+    background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-position: center center;
+  }
+  .destacados {
+    width: auto !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;"
+  }
+  .destacado-carrusel {
+    width: 100%;
+    margin-right: -40px;
+  }
+  .destacado-box-links {
+    width: 100%;
+    margin: auto 0px auto 10px;
+  }
+  .destacado-box {
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -30px;
+  }
+  .destacado-img {
+    width: 80px;
+    height: 45px;
+    object-fit: cover;
+    margin-right: 10px;"
+  }
+}
+@media (min-width: 992px) {
+  .img-post-view {
+    width: 100% !important;
+    height: 104px;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  .img-post-opinion {
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: solid 1px #ffffff;
+    object-fit: cover;
+  }
+  .img-carrusel {
+    width: 100% !important;
+    height: 292px;
+    background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-position: center center;
+  }
+  .destacados {
+    width: 97% !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;"
+  }
+  .destacado-carrusel {
+    width: 58%;
+    margin-right: -40px;
+  }
+  .destacado-box-links {
+    width: 44%;
+    margin: auto 0px auto 10px;
+  }
+  .destacado-box {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: -10px;
+  }
+  .destacado-img {
+    width: 66px;
+    height: 37px;
+    object-fit: cover;
+    margin-right: 10px;"
+  }
+}
+@media (min-width: 1200px) {
+  .img-post-view {
+    width: 233px;
+    height: 131px;
+    object-fit: cover;#D29B03
+    margin-top: 20px;
+  }
+  .img-post-opinion {
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: solid 1px #ffffff;
+    object-fit: cover;
+  }
+  .img-carrusel {
+    width: 635px !important;
+    height: 357px;
+    background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-position: center center;
+  }
+  .destacados {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px;"
+  }
+  .destacado-carrusel {
+    width: 58%;
+    margin-right: -40px;
+  }
+  .destacado-box-links {
+    width: 44%;
+    margin: auto 0px auto 10px;
+  }
+  .destacado-box {
+    width: 100%;
+    margin-right: -30px;
+  }
+  .destacado-img {
+    width: 89px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;"
+  }
+}
